@@ -280,6 +280,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		E65C2EFD1E2CE1790007B28E /* DeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				E65C2E9F1E2CA7540007B28E /* System Services */,
+			);
+			name = DeviceInfo;
+			sourceTree = "<group>";
+		};
 		E65D8180816F384795B401D6DBDA0C15 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,7 +300,7 @@
 		FFD13F367227710470E4E9C6357FF431 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E65C2E9F1E2CA7540007B28E /* System Services */,
+				E65C2EFD1E2CE1790007B28E /* DeviceInfo */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
