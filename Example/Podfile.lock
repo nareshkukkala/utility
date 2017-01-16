@@ -1,7 +1,9 @@
 PODS:
+  - ReachabilitySwift (3)
   - UtilityCollection (0.1.0)
 
 DEPENDENCIES:
+  - ReachabilitySwift (~> 3)
   - UtilityCollection (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  UtilityCollection: e74ba34b4570957a364bd95eebbce9feb802e92f
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  UtilityCollection: 2768d8c533f649441955d43266c45b21c4352b7a
 
-PODFILE CHECKSUM: 0c7c6eb38132842e68b8e1623c562db277025546
+PODFILE CHECKSUM: 38b8d98cfdd9f6b3103a6d9de523c79c37b45c08
 
 COCOAPODS: 1.1.1

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of UtilityCollection.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/UtilityCollection",
+  "homepage": "https://github.com/nareshkukkala/utility",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "nareshkukkala": "nareshkukkala28@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/UtilityCollection.git",
+    "git": "https://github.com/nareshkukkala/utility.git",
     "tag": "0.1.0"
   },
   "platforms": {
