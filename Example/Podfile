@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'UtilityCollection_Example' do
   pod 'UtilityCollection', :path => '../'
+  pod 'ReachabilitySwift', '~> 3'
 
   target 'UtilityCollection_Tests' do
     inherit! :search_paths

@@ -288,6 +288,13 @@
 			name = DeviceInfo;
 			sourceTree = "<group>";
 		};
+		E65C2EFE1E2CFA810007B28E /* Network Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Network Utilities";
+			sourceTree = "<group>";
+		};
 		E65D8180816F384795B401D6DBDA0C15 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,6 +307,7 @@
 		FFD13F367227710470E4E9C6357FF431 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E65C2EFE1E2CFA810007B28E /* Network Utilities */,
 				E65C2EFD1E2CE1790007B28E /* DeviceInfo */,
 			);
 			path = Classes;
