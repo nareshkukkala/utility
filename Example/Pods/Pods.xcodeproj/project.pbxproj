@@ -14,7 +14,6 @@
 		39E5214E27305B4BB5B1C69F4E85F011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		72CCF5D6A687A5ADFED924870A7155C9 /* Pods-UtilityCollection_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1627F4C9761C842327D49E3BB339D653 /* Pods-UtilityCollection_Example-dummy.m */; };
 		8504FE95F60E958B2AC70B1721E1B448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8AAEB49D1C6A730BE819836332E4AC7E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA0698D61E617C780BE239C20B1A62 /* ReplaceMe.swift */; };
 		DEC09EE52877BF65C2BE5CF892080074 /* Pods-UtilityCollection_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B61527535D6216882EB9EB83CC2D5E25 /* Pods-UtilityCollection_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E11B1748DFF3FF6D97A3B4E21EE9632B /* Pods-UtilityCollection_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0002F0E77FF2D3C261D71A39309374B5 /* Pods-UtilityCollection_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -38,7 +37,6 @@
 		2D19FED124E83BC6999EDEDAAFE46880 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		358AFE46627A1874936568AD36C642EA /* UtilityCollection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UtilityCollection-prefix.pch"; sourceTree = "<group>"; };
 		4226DAED949F860D8A5BB867E2BB1EE7 /* Pods-UtilityCollection_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UtilityCollection_Tests-resources.sh"; sourceTree = "<group>"; };
-		43CA0698D61E617C780BE239C20B1A62 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		4ADAED2880F92203F90C82D5268B2E1A /* UtilityCollection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UtilityCollection.modulemap; sourceTree = "<group>"; };
 		4BB2BDA5A200B0D0D95E42C57283DACE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EC0FA675901376414EA06B20A447F8A /* Pods-UtilityCollection_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UtilityCollection_Tests.modulemap"; sourceTree = "<group>"; };
@@ -59,6 +57,37 @@
 		D5A4569CCB0FF36DC198F9EC04D011CD /* Pods_UtilityCollection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UtilityCollection_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D835E62AB59838E6D47F0961D3472442 /* Pods-UtilityCollection_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UtilityCollection_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D9227A4B182AE5C54666D0823037F71E /* UtilityCollection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UtilityCollection-umbrella.h"; sourceTree = "<group>"; };
+		E65C2EA01E2CA7540007B28E /* SystemServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemServices.h; sourceTree = "<group>"; };
+		E65C2EA11E2CA7540007B28E /* SystemServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemServices.m; sourceTree = "<group>"; };
+		E65C2EA31E2CA7540007B28E /* route.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		E65C2EA41E2CA7540007B28E /* SSAccelerometerInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAccelerometerInfo.h; sourceTree = "<group>"; };
+		E65C2EA51E2CA7540007B28E /* SSAccelerometerInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAccelerometerInfo.m; sourceTree = "<group>"; };
+		E65C2EA61E2CA7540007B28E /* SSAccessoryInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAccessoryInfo.h; sourceTree = "<group>"; };
+		E65C2EA71E2CA7540007B28E /* SSAccessoryInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAccessoryInfo.m; sourceTree = "<group>"; };
+		E65C2EA81E2CA7540007B28E /* SSApplicationInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSApplicationInfo.h; sourceTree = "<group>"; };
+		E65C2EA91E2CA7540007B28E /* SSApplicationInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSApplicationInfo.m; sourceTree = "<group>"; };
+		E65C2EAA1E2CA7540007B28E /* SSBatteryInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSBatteryInfo.h; sourceTree = "<group>"; };
+		E65C2EAB1E2CA7540007B28E /* SSBatteryInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSBatteryInfo.m; sourceTree = "<group>"; };
+		E65C2EAC1E2CA7540007B28E /* SSCarrierInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSCarrierInfo.h; sourceTree = "<group>"; };
+		E65C2EAD1E2CA7540007B28E /* SSCarrierInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSCarrierInfo.m; sourceTree = "<group>"; };
+		E65C2EAE1E2CA7540007B28E /* SSDiskInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSDiskInfo.h; sourceTree = "<group>"; };
+		E65C2EAF1E2CA7540007B28E /* SSDiskInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSDiskInfo.m; sourceTree = "<group>"; };
+		E65C2EB01E2CA7540007B28E /* SSHardwareInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSHardwareInfo.h; sourceTree = "<group>"; };
+		E65C2EB11E2CA7540007B28E /* SSHardwareInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSHardwareInfo.m; sourceTree = "<group>"; };
+		E65C2EB21E2CA7540007B28E /* SSJailbreakCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSJailbreakCheck.h; sourceTree = "<group>"; };
+		E65C2EB31E2CA7540007B28E /* SSJailbreakCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSJailbreakCheck.m; sourceTree = "<group>"; };
+		E65C2EB41E2CA7540007B28E /* SSLocalizationInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSLocalizationInfo.h; sourceTree = "<group>"; };
+		E65C2EB51E2CA7540007B28E /* SSLocalizationInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLocalizationInfo.m; sourceTree = "<group>"; };
+		E65C2EB61E2CA7540007B28E /* SSMemoryInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSMemoryInfo.h; sourceTree = "<group>"; };
+		E65C2EB71E2CA7540007B28E /* SSMemoryInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSMemoryInfo.m; sourceTree = "<group>"; };
+		E65C2EB81E2CA7540007B28E /* SSNetworkInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSNetworkInfo.h; sourceTree = "<group>"; };
+		E65C2EB91E2CA7540007B28E /* SSNetworkInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSNetworkInfo.m; sourceTree = "<group>"; };
+		E65C2EBA1E2CA7540007B28E /* SSProcessInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSProcessInfo.h; sourceTree = "<group>"; };
+		E65C2EBB1E2CA7540007B28E /* SSProcessInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSProcessInfo.m; sourceTree = "<group>"; };
+		E65C2EBC1E2CA7540007B28E /* SSProcessorInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSProcessorInfo.h; sourceTree = "<group>"; };
+		E65C2EBD1E2CA7540007B28E /* SSProcessorInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSProcessorInfo.m; sourceTree = "<group>"; };
+		E65C2EBE1E2CA7540007B28E /* SSUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSUUID.h; sourceTree = "<group>"; };
+		E65C2EBF1E2CA7540007B28E /* SSUUID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSUUID.m; sourceTree = "<group>"; };
 		EAB78C68EEC801009AD20DF60BA1BCFC /* Pods-UtilityCollection_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UtilityCollection_Example-umbrella.h"; sourceTree = "<group>"; };
 		EE587FE9961C217806F7B50724487AA0 /* UtilityCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtilityCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8787CF213C9DCD1264DC0EFFFF5363 /* Pods-UtilityCollection_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UtilityCollection_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -205,6 +234,52 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E65C2E9F1E2CA7540007B28E /* System Services */ = {
+			isa = PBXGroup;
+			children = (
+				E65C2EA01E2CA7540007B28E /* SystemServices.h */,
+				E65C2EA11E2CA7540007B28E /* SystemServices.m */,
+				E65C2EA21E2CA7540007B28E /* Utilities */,
+			);
+			path = "System Services";
+			sourceTree = "<group>";
+		};
+		E65C2EA21E2CA7540007B28E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E65C2EA31E2CA7540007B28E /* route.h */,
+				E65C2EA41E2CA7540007B28E /* SSAccelerometerInfo.h */,
+				E65C2EA51E2CA7540007B28E /* SSAccelerometerInfo.m */,
+				E65C2EA61E2CA7540007B28E /* SSAccessoryInfo.h */,
+				E65C2EA71E2CA7540007B28E /* SSAccessoryInfo.m */,
+				E65C2EA81E2CA7540007B28E /* SSApplicationInfo.h */,
+				E65C2EA91E2CA7540007B28E /* SSApplicationInfo.m */,
+				E65C2EAA1E2CA7540007B28E /* SSBatteryInfo.h */,
+				E65C2EAB1E2CA7540007B28E /* SSBatteryInfo.m */,
+				E65C2EAC1E2CA7540007B28E /* SSCarrierInfo.h */,
+				E65C2EAD1E2CA7540007B28E /* SSCarrierInfo.m */,
+				E65C2EAE1E2CA7540007B28E /* SSDiskInfo.h */,
+				E65C2EAF1E2CA7540007B28E /* SSDiskInfo.m */,
+				E65C2EB01E2CA7540007B28E /* SSHardwareInfo.h */,
+				E65C2EB11E2CA7540007B28E /* SSHardwareInfo.m */,
+				E65C2EB21E2CA7540007B28E /* SSJailbreakCheck.h */,
+				E65C2EB31E2CA7540007B28E /* SSJailbreakCheck.m */,
+				E65C2EB41E2CA7540007B28E /* SSLocalizationInfo.h */,
+				E65C2EB51E2CA7540007B28E /* SSLocalizationInfo.m */,
+				E65C2EB61E2CA7540007B28E /* SSMemoryInfo.h */,
+				E65C2EB71E2CA7540007B28E /* SSMemoryInfo.m */,
+				E65C2EB81E2CA7540007B28E /* SSNetworkInfo.h */,
+				E65C2EB91E2CA7540007B28E /* SSNetworkInfo.m */,
+				E65C2EBA1E2CA7540007B28E /* SSProcessInfo.h */,
+				E65C2EBB1E2CA7540007B28E /* SSProcessInfo.m */,
+				E65C2EBC1E2CA7540007B28E /* SSProcessorInfo.h */,
+				E65C2EBD1E2CA7540007B28E /* SSProcessorInfo.m */,
+				E65C2EBE1E2CA7540007B28E /* SSUUID.h */,
+				E65C2EBF1E2CA7540007B28E /* SSUUID.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		E65D8180816F384795B401D6DBDA0C15 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,7 +292,7 @@
 		FFD13F367227710470E4E9C6357FF431 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				43CA0698D61E617C780BE239C20B1A62 /* ReplaceMe.swift */,
+				E65C2E9F1E2CA7540007B28E /* System Services */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -348,7 +423,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AAEB49D1C6A730BE819836332E4AC7E /* ReplaceMe.swift in Sources */,
 				2CE80EB147898D94B9D4B1E178ED1AA1 /* UtilityCollection-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
