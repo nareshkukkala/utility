@@ -139,9 +139,6 @@
 		DB676B3376B201FCD4AC0A85737DBDB1 /* SSProcessInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSProcessInfo.h; sourceTree = "<group>"; };
 		DFFE6103C9A94197C08543681E204CDC /* SSAccessoryInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSAccessoryInfo.h; sourceTree = "<group>"; };
 		E2D2A444FC528FC0D4C80F57A3D32F88 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
-		E61B089E1E2DD20500BF7515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E61B089F1E2DD20500BF7515 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		E61B08A01E2DD20500BF7515 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		EAB78C68EEC801009AD20DF60BA1BCFC /* Pods-UtilityCollection_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UtilityCollection_Example-umbrella.h"; sourceTree = "<group>"; };
 		EEA794809C8F3C412E576B8A8772CBF3 /* SystemServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SystemServices.h; sourceTree = "<group>"; };
 		F0BE619C20D6F873857A28C17FDB77C1 /* SSProcessorInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSProcessorInfo.m; sourceTree = "<group>"; };
@@ -381,19 +378,8 @@
 		E61B089C1E2DD1CB00BF7515 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				E61B089D1E2DD20500BF7515 /* Reachability */,
 			);
 			name = Network;
-			sourceTree = "<group>";
-		};
-		E61B089D1E2DD20500BF7515 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				E61B089E1E2DD20500BF7515 /* Info.plist */,
-				E61B089F1E2DD20500BF7515 /* Reachability.h */,
-				E61B08A01E2DD20500BF7515 /* Reachability.swift */,
-			);
-			path = Reachability;
 			sourceTree = "<group>";
 		};
 		E65D8180816F384795B401D6DBDA0C15 /* Targets Support Files */ = {
