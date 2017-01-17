@@ -40,5 +40,6 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'ReachabilitySwift', '~> 3'
    s.dependency 'SwiftDate', '~> 4.0'
+   s.dependency 'SwiftyTimer', :branch => 'swift3'
 
 end
